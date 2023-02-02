@@ -10,7 +10,7 @@ The `cc-srd5.md` file in this repo is the original *System Reference Document 5.
 -   Make the *SRD* more useful for third-party publishers. The PDF provided by the first-party publisher contains unusable trademarked terms and references, and the PDF is rendered in such a way that unnecessarily complicates searching and copying content in many PDF readers.
 -   Fix punctuation and formatting errors and inconsistencies from the source PDF.
 -   Reorganize and divide the *SRD* so that its modular components can be easily repurposed for people building new systems on its foundation.
--   Export the content to other formats more easily. For instance, exporting the same text from Markdown to PDF gives us heading-level bookmarks and links that the first-party version lacks.
+-   Export the content to other formats more easily, and with more features. For instance, exporting the *SRD* from Markdown to PDF gives us heading-level bookmarks, links, and a table of contents that the first-party version lacks. Exporting it to DOCX provides an easily editable document.
 
 What this *won't* be:
 
@@ -21,13 +21,15 @@ What this *won't* be:
 
 This project is inspired by the stalwart [Hypertext d20 SRD](http://www.d20srd.org/) by Jans Carton.
 
-> **WARNING:** This is a work in progress. Using it as a source for a product might expose you to liability from one of the demonstrably worst-behaving corporate owners in gaming. I am not a lawyer, and this is not legal advice; consult a lawyer before using this SRD, especially in a commercial product. Any terms in this document not owned by me or otherwise freely available content are used unintentionally from the source document and will be removed immediately upon request, especially if you're the person who left them in by mistake in the first place.
+> **WARNING:** This is a work in progress, and I provide no guarantees or legal protections that it is safe or legal to use. Using this work as a source for a commercial product might expose you to liability from one of the demonstrably worst-behaving corporate owners in gaming. I am not a lawyer, and this is not legal advice; consult a lawyer before using this *SRD*.
+>
+> Any terms in this document not owned by me, or are not otherwise freely available or openly licensed content compatible with the CC-BY-4.0 license, are used unintentionally from the source document. I will remove them immediately when I find them and upon request, especially if you are the person who left them in by mistake in the first place or a representative of their publisher.
 
 ## Generic terms
 
 > While the CC-BY-4.0 license release of *SRD 5.1* changes the potential reality of any OGL-declared Product Identity in its contents, I'm personally removing any of it from this conversion in order to ensure that this resource remains, both in spirit and letter, in compliance with its permissive license despite the chaotic nature of the publisher's relicensing and their slipshod editing of the *SRD*.
 
-Continuing with the intent of changes that the *SRD*'s original publisher made in revisions to remove terms closely associated with the publisher's copyrighted settings, I've replaced terms formerly listed as OGL Product Identity with the following generic terms, which I do not claim to own and do not declare as OGL Product Identity. Where possible, I release these replacement terms into the public domain to the fullest extent allowed in all jurisdictions, without any need for attribution:
+Continuing with the intent of changes that the *SRD*'s original publisher made in revisions to remove terms closely associated with the publisher's copyrighted settings, I've replaced terms listed by the first-party publisher as OGL Product Identity with the following generic terms, which I do not claim to own. Where possible, I release these replacement terms into the public domain to the fullest extent allowed in all jurisdictions, without any need for attribution:
 
 -   hooked hulk (*guards and wards*)
 -   eyestalker (*deck of illusions*)
@@ -81,6 +83,87 @@ The *SRD*'s first-party publisher released the entirety of the *SRD 5.1* under t
 
 - Fix HTML template/rendering
 - Modernize CSS
+
+## FAQ
+
+<details>
+<summary>Q: Why do you keep saying "the SRD's first-party publisher" instead of just naming them?</summary>
+
+- A: Per the "Legal Information" section of the first-party publisher's *SRD* PDF:
+
+  > Please do not include any other attribution regarding (the first-party publisher) other than that provided above. You may, however, include a statement on your work that it is “compatible with fifth edition” or “5E compatible.”
+
+  Because of the the first-party publisher's poor corporate citizenship and openly toxic attempts to wield legal powers over the existing open license prior to this relicensing, I decline to provide them with more reasons to act against this or any project. For that matter I also decline to provide them with any more attribution to this work than is absolutely, legally necessary.
+
+</details>
+
+<details>
+<summary>Q: If the SRD was relicensed with the Creative Commons Attribution license, why remove OGL Product Identity terms?</summary>
+
+- A: I'm not a lawyer, but Creative Commons licenses are copyright licenses, not trademark licenses. Thanks to the OGL Product Identity list, the first-party publisher openly identifies terms to which it wishes to reserve additional rights. Many of these terms are actively used in trademarks owned by the first-party publisher for products that are not covered by either the OGL or Creative Commons licenses.
+
+  Therefore, out of an abundance of legal caution and with the knowledge that the first-party publisher has a recent and toxic history of actively and aggressively threatening works that are adjacent to its trademark rights, this work removes or replaces those terms. The first-party publisher's Product Identity claims are broad and vague, which means this work likely still contains terms that the first-party publisher might still try to claim.
+
+  Additionally, many Product Identity terms are used in the *SRD* only in examples and are, at best, unnecessary. In several cases, the Product Identity terms only add confusion for people with limited or no knowledge of the copyright-reserved, trademark-protected campaign settings or accessory products, and the *SRD* is arguably improved by removing them.
+
+  When the first-party publisher released the *SRD 5.1*, its updates to the original *SRD 5.0* were largely comprised of removing Product Identity terms from that original *SRD*. However, that update did not remove all such terms, nor did it even remove such terms with internal consistency, leaving existing Product identity terms in but orphaned of any context while even adding new ones without context.
+
+  By removing potentially protected terms that the first-party publisher negligently left in their openly-licensed reference document, this project aims to make the rules safer to reuse in publicly distributed homebrew and hobby projects.
+
+</details>
+
+<details>
+<summary>Q: Wasn't this repository under a different name before?</summary>
+
+- A: I initially converted the OGL v1.0a *SRD 5.0* to Markdown in 2016. To remove all claims that the first-party publisher might attempt to make on the content as released under the potentially revocable OGL v1.0a license, I've rewritten the history of this repository to remove all prior commits, deleted the repository from this host, and recreated it under a new name using the Creative Commons Attribution license from its origin.
+
+  I do not claim any rights to, nor will I maintain or provide support for, any forks or copies of the original repository.
+
+</details>
+
+<details>
+<summary>Q: Some of the content is wrong. Not just different, but incorrect. It's a typo, a formatting error, or a mistaken inclusion/omission. How should this be fixed?</summary>
+
+- A: File an issue or pull request in this repository. Be as detailed as possible about both where the error is located, and where I can find the correct information in the *SRD 5.1* PDF. If I can't find the error based on your description, I'll close the issue.
+
+</details>
+
+<details>
+<summary>Q: Some of the rules in the SRD have been changed in official errata, or I think they're bad and I have an improvement, or I'm offering to provide open content for references that are missing. How can I help?</summary>
+
+- A: This project will not incorporate any errata, even where it makes sense to, because the first-party publisher has not explicitly released any *SRD* or 5E-compatible errata under the CC-BY 4.0 license, except for any changes made in their *SRD 5.1* compared to their *SRD 5.0*. If that situation ever changes, file an issue and provide specific details and links to the first-party publisher's official release of such errata.
+
+  I know game mechanics, including the errata, are not copyrighted, and that the errata could be rephrased or reincorporated in this work without using the copyrighted text. But the entire reason the OGL exists, or that this Creative Commons relicensing occurred, is because of the potential liability of using even excerpts of copyrighted text available only under the OGL v1.0a or more restrictive copyright licenses.
+
+  Additionally, I am not a sufficient authority on the system's rules to judge whether your proposed fix to a rule is an improvement, even if your proposed improvement is original work and you offer to freely or openly license it. Improving the *rules content* of the *SRD* is explicitly *not* a goal of this project. If you want to do so, fork this project and take ownership of your improvements.
+
+</details>
+
+<details>
+<summary>Q: Where's the Discord for this project? How can I contribute?</summary>
+
+- A: I don't plan on building or maintaining a community around this resource. If you want to participate in a community working on an open resource based on the 5E-compatible *SRD*, go to [5e-bits](https://github.com/5e-bits).
+
+  Hosting this resource costs me nothing, and taking payment or donations is a liability that I happily decline.
+
+</details>
+
+<details>
+<summary>Q: If you hate the publisher so much, why are you doing this?</summary>
+
+- A: Regardless of whether I like the publisher or these rules, this system is popular enough to be responsible for growing a hobby I've loved for decades to an extent I hardly could have ever imagined. The people I've played it with are poorly served by the corporation that owns it.
+
+  Regardless of the still questionable, market-driven motives that led the first-party publisher relicensing this content to a truly open license, their action provides an opportunity to make these rules more accessible, expand this hobby to more people and more communities in ways not driven primarily or exclusively by monetization and profit, and inspire more people to create stories, mechanics, and experiences that have a long history of exceeding anything that the first-party publisher is capable of making.
+
+  In particular, the *SRD* as it was originally released was insultingly poor: polluted with legal Product Identity traps, in a format pointlessly inaccessible to people with vision disabilities, poorly edited and laden with careless copy-and-paste mistakes, and missing fundamental components that made it unusable as a literal reference document for the system.
+
+  This mess of an *SRD* received all of one update months later, one that didn't even resolve all of the problems openly and publicly identified and reported at the time, and then nothing in the more than six years hence. The publisher made no attempt to host the *SRD* in literally any other format but the least accessible one available to them, instead handing that work - and all of its potential and ever-threatening liability - to unpaid fans and opportunistic ad-supported websites.
+
+  Back in 2016, I had a player beyond excited to create OGL-licensed 5E-compatible content, but literally couldn't read the *SRD* because the first-party publisher was either too lazy or incompetent to export a tagged PDF fully compatible with contemporary screen readers. Back then, there were no reliable *SRD 5.0* websites. This project tried to resolve these fundamental issues because even then this system consumed all of the attention of legions of new players, even when more accessible, less expensive, better supported, and more open systems were already thriving in a smaller marketplace. The network effects alone of the system's name and brand, even with all of its historical baggage, were and still remain overwhelming.
+
+  That player is still playing and making games because they had this resource, even if both they and I have since left this system behind for ones that did more to be usable, accessible, and enjoyable. But I still do this for that player because I know that there are many players like them, and nearly seven years after the *SRD*'s flawed release, the only official document is ***still*** the same ugly, badly edited PDF from 2016 with poor accessibility and a bunch of trademark traps.
+
+</details>
 
 ## Credits and software licenses
 

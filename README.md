@@ -59,6 +59,12 @@ For differences between the OGL v1.0a-licensed *SRD 5.0* and CC-BY-4.0-licensed 
 
 ## Release notes
 
+### 0.9.1 (2022-02-04)
+
+- Added links for conditions.
+- Updated HTML templates and CSS styles.
+- Made some progress on getting DOCX styles back.
+
 ### 0.9 (2022-02-01)
 
 - Added content changes from *SRD 5.1*, and documented identified changes in ["Changes from SRD 5.0 to 5.1"](./changes-50-to-51.md).
@@ -83,6 +89,7 @@ The *SRD*'s first-party publisher released the entirety of the *SRD 5.1* under t
 
 - Fix HTML template/rendering
 - Modernize CSS
+- Restore DOCX rendering
 
 ## FAQ
 

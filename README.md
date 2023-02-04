@@ -33,11 +33,10 @@ Continuing with the intent of changes that the *SRD*'s original publisher made i
 
 -   hooked hulk (*guards and wards*)
 -   eyestalker (*deck of illusions*)
--   fey plane (planes and monsters)
 -   maze demon (*maze*)
--   Orb of the Wyrm (artifacts)
--   Primordial Chaos (planes)
--   shadow plane (planes)
+-   fey plane, shadow plane (planes and monsters)
+-   primordial chaos (planes)
+-   *Orb of the Wyrm* (artifacts)
 -   Chains of the Deodand (Warlock eldritch invocations)
 -   serpentfolk (in place of references to a setting-specific ethnicity)
 -   demon lords, archdevils, pit fiends, balors (in place of references to specific named beings)
@@ -46,10 +45,11 @@ References to protected deities are changed to real-world mythological entities 
 
 ### Rules omitted from the source
 
-In addition to the terms above, rules for the following terms or concepts in this system were omitted from the *SRD* and therefore are intentionally not covered or explained. **If you're using this *SRD* to create content, be aware that the following concepts do not have official first-party Open Game Content to support them. This list is *not*, and might *never be*, comprehensive.**
+In addition to the terms above, rules for the following terms or concepts in this system were omitted from the *SRD* and therefore are intentionally not covered or explained. **If you're using this *SRD* to create content, be aware that the following concepts do not have official first-party open or freely licensed content to support them. This list is *not*, and might *never be*, comprehensive.**
 
 -   **Domain and magic school descriptors in spells.** The *SRD* includes only the Life domain and Evocation school. Spells in the *SRD* might list other domains or schools that are described in the first-party publisher's copyright-reserved system, but those domains and schools are not detailed in the *SRD*.
--   **Artifact properties.** The *Orb of the Wyrm* artifact has random properties, but the table describing random properties and the process for selecting them was not included in the first-party publisher's *SRD*.
+-   **Subclasses.** As above, every class includes only one subclass. Any references to any other subclass options lack corresponding rules.
+-   **Artifact properties.** The *Orb of the Wyrm* artifact has random properties, but the table describing random properties and process for selecting them were not included in the first-party publisher's *SRD*.
 -   **Treasure tables.** The first-party publisher's *SRD* didn't include any random treasure tables.
 -   **Most class options (including feats) and sub-races.** Only one feat, Grappler, was included in the first-party publisher's *SRD*.
 -   **Cavalier die mechanics.** The cavalier's unique rules were not included in the first-party publisher's *SRD*.
@@ -106,9 +106,9 @@ The *SRD*'s first-party publisher released the entirety of the *SRD 5.1* under t
 
   Additionally, many Product Identity terms are used in the *SRD* only in examples and are, at best, unnecessary. In several cases, the Product Identity terms only add confusion for people with limited or no knowledge of the copyright-reserved, trademark-protected campaign settings or accessory products, and the *SRD* is arguably improved by removing them.
 
-  When the first-party publisher released the *SRD 5.1*, its updates to the original *SRD 5.0* were largely comprised of removing Product Identity terms from that original *SRD*. However, that update did not remove all such terms, nor did it even remove such terms with internal consistency, leaving existing Product identity terms in but orphaned of any context while even adding new ones without context.
+  When the first-party publisher released the *SRD 5.1*, its updates to the original *SRD 5.0* were largely comprised of removing Product Identity terms from that original *SRD*. However, that update did not remove all such terms, nor did it even remove such terms with internal consistency, leaving existing Product Identity terms intact but orphaned of any context, while even adding new and unnecessary Product Identity terms without context.
 
-  By removing potentially protected terms that the first-party publisher negligently left in their openly-licensed reference document, this project aims to make the rules safer to reuse in publicly distributed homebrew and hobby projects.
+  By removing potentially protected terms that the first-party publisher negligently left in their openly licensed reference document, this project aims to make the rules safer to reuse in publicly distributed homebrew and hobby projects.
 
 </details>
 
@@ -131,11 +131,11 @@ The *SRD*'s first-party publisher released the entirety of the *SRD 5.1* under t
 <details>
 <summary>Q: Some of the rules in the SRD have been changed in official errata, or I think they're bad and I have an improvement, or I'm offering to provide open content for references that are missing. How can I help?</summary>
 
-- A: This project will not incorporate any errata, even where it makes sense to, because the first-party publisher has not explicitly released any *SRD* or 5E-compatible errata under the CC-BY 4.0 license, except for any changes made in their *SRD 5.1* compared to their *SRD 5.0*. If that situation ever changes, file an issue and provide specific details and links to the first-party publisher's official release of such errata.
+- A: This project will not incorporate any errata, even where it makes sense to, because the first-party publisher has not explicitly released any *SRD* or 5E-compatible errata under the CC-BY 4.0 license, except for any changes made in their *SRD 5.1* compared to their *SRD 5.0*. If that situation ever changes, file an issue and provide specific details and links to the first-party publisher's official release of such openly licensed errata.
 
-  I know game mechanics, including the errata, are not copyrighted, and that the errata could be rephrased or reincorporated in this work without using the copyrighted text. But the entire reason the OGL exists, or that this Creative Commons relicensing occurred, is because of the potential liability of using even excerpts of copyrighted text available only under the OGL v1.0a or more restrictive copyright licenses.
+  I know game mechanics, including the errata, are not copyrighted, and that the errata could be rephrased or reincorporated in this work without using the copyrighted text. But the entire reason the OGL exists, or that this Creative Commons relicensing occurred, is because of the potential liability of using even excerpts of copyrighted text not available under any open license, or available only under the OGL v1.0a or more restrictive copyright licenses.
 
-  Additionally, I am not a sufficient authority on the system's rules to judge whether your proposed fix to a rule is an improvement, even if your proposed improvement is original work and you offer to freely or openly license it. Improving the *rules content* of the *SRD* is explicitly *not* a goal of this project. If you want to do so, fork this project and take ownership of your improvements.
+  Additionally, I'm not a sufficient authority on the system's rules to judge whether your proposed fix to a rule is an improvement, even if your proposed improvement is original work and you offer to freely or openly license it. Improving the *rules content* of the *SRD* is explicitly *not* a goal of this project. If you want to do so, fork this project and take ownership of your improvements.
 
 </details>
 
@@ -144,7 +144,7 @@ The *SRD*'s first-party publisher released the entirety of the *SRD 5.1* under t
 
 - A: I don't plan on building or maintaining a community around this resource. If you want to participate in a community working on an open resource based on the 5E-compatible *SRD*, go to [5e-bits](https://github.com/5e-bits).
 
-  Hosting this resource costs me nothing, and taking payment or donations is a liability that I happily decline.
+  Hosting this resource costs me nothing, and accepting payment or donations is a liability that I happily decline.
 
 </details>
 
@@ -159,7 +159,7 @@ The *SRD*'s first-party publisher released the entirety of the *SRD 5.1* under t
 
   This mess of an *SRD* received all of one update months later, one that didn't even resolve all of the problems openly and publicly identified and reported at the time, and then nothing in the more than six years hence. The publisher made no attempt to host the *SRD* in literally any other format but the least accessible one available to them, instead handing that work - and all of its potential and ever-threatening liability - to unpaid fans and opportunistic ad-supported websites.
 
-  Back in 2016, I had a player beyond excited to create OGL-licensed 5E-compatible content, but literally couldn't read the *SRD* because the first-party publisher was either too lazy or incompetent to export a tagged PDF fully compatible with contemporary screen readers. Back then, there were no reliable *SRD 5.0* websites. This project tried to resolve these fundamental issues because even then this system consumed all of the attention of legions of new players, even when more accessible, less expensive, better supported, and more open systems were already thriving in a smaller marketplace. The network effects alone of the system's name and brand, even with all of its historical baggage, were and still remain overwhelming.
+  Back in 2016, I had a player beyond excited to create OGL-licensed 5E-compatible content, but literally couldn't read the *SRD* because the first-party publisher was either too lazy or incompetent to export a tagged PDF fully compatible with contemporary screen readers. Back then, there were no reliable *SRD 5.0* websites. This project tried to resolve these fundamental issues because even then this system consumed all of the attention of legions of new players, even when more accessible, less expensive, better supported, and more open systems were already thriving in a smaller marketplace. The network effects alone of the system's name, brand, and retail distribution, even with all of its historical baggage, were and still remain overwhelming.
 
   That player is still playing and making games because they had this resource, even if both they and I have since left this system behind for ones that did more to be usable, accessible, and enjoyable. But I still do this for that player because I know that there are many players like them, and nearly seven years after the *SRD*'s flawed release, the only official document is ***still*** the same ugly, badly edited PDF from 2016 with poor accessibility and a bunch of trademark traps.
 

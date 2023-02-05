@@ -61,8 +61,11 @@ For differences between the OGL v1.0a-licensed *SRD 5.0* and CC-BY-4.0-licensed 
 
 ### 0.9.2 (2022-02-05)
 
-- Add spellcheck wordlist.
-- Add DOCX/ODT templates.
+- Add spellcheck wordlist and dictionary generation script.
+- Add DOCX/ODT reference documents for Pandoc.
+- Replace outdated normalize.css with [sindresorhus/modern-normalize](https://github.com/sindresorhus/modern-normalize).
+- Remove HTML5 printing shim for IE 9.
+- Update licensing files.
 
 ### 0.9.1 (2022-02-04)
 

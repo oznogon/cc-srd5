@@ -27,6 +27,8 @@ pandoc_html () {
 pandoc_docx () {
     if test -z "${2}"
     then
+        # Pandoc doesn't convert the HTML tables in Markdown to DOCX/ODT, so we
+        # have to use the HTML output as an intermediary.
         echo "Need HTML output..."
         pandoc_html html
     fi

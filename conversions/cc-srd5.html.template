@@ -17,10 +17,10 @@ $if(description-meta)$
   <meta name="description" content="$description-meta$" />
 $endif$
   <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
-  <!-- mdsrd5 Google Fonts -->
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Alegreya%20Sans:400,400italic,700,700italic" rel="stylesheet" type="text/css">
-  <!-- END mdsrd5 Google Fonts -->
+  <!-- END Google Fonts -->
   <style>
     $styles.html()$
   </style>
@@ -30,9 +30,6 @@ $endfor$
 $if(math)$
   $math$
 $endif$
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
   <script>
 window.addEventListener('DOMContentLoaded', () => {
 

@@ -61,7 +61,7 @@ For differences between the OGL v1.0a-licensed *SRD 5.0* and CC-BY-4.0-licensed 
 
 ### 0.9.1 (2022-02-04)
 
-- Added links for conditions.
+- Added links for conditions, spell lists, and magic item attunement.
 - Updated HTML templates and CSS styles.
 - Made some progress on getting DOCX styles back.
 

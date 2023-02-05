@@ -59,17 +59,22 @@ For differences between the OGL v1.0a-licensed *SRD 5.0* and CC-BY-4.0-licensed 
 
 ## Release notes
 
+### 0.9.2 (2022-02-05)
+
+- Add spellcheck wordlist.
+- Add DOCX/ODT templates.
+
 ### 0.9.1 (2022-02-04)
 
-- Added links for conditions, spell lists, and magic item attunement.
-- Updated HTML templates and CSS styles.
-- Made some progress on getting DOCX styles back.
+- Add links for conditions, spell lists, and magic item attunement.
+- Update HTML templates and CSS styles.
+- Make some progress on getting DOCX styles back.
 
 ### 0.9 (2022-02-01)
 
-- Added content changes from *SRD 5.1*, and documented identified changes in ["Changes from SRD 5.0 to 5.1"](./changes-50-to-51.md).
-- Updated HTML templates and CSS styles.
-- Added internal links to spells and magic items.
+- Add content changes from *SRD 5.1*, and documented identified changes in ["Changes from SRD 5.0 to 5.1"](./changes-50-to-51.md).
+- Update HTML templates and CSS styles.
+- Add internal links to spells and magic items.
 
 ### 0.8.1 (2022-01-27)
 
@@ -87,9 +92,10 @@ The *SRD*'s first-party publisher released the entirety of the *SRD 5.1* under t
 
 ## TODO
 
-- Fix HTML template/rendering
+- Improve HTML template/rendering
 - Modernize CSS
-- Restore DOCX rendering
+- Fix DOCX and ODT tables
+- Restore ePub output
 
 ## FAQ
 

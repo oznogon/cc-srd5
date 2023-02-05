@@ -180,4 +180,8 @@ The *SRD*'s first-party publisher released the entirety of the *SRD 5.1* under t
 
 ## Credits and software licenses
 
-The HTML version uses the fonts [Alegreya](http://www.fontsquirrel.com/fonts/alegreya) and [Alegreya Sans](http://www.fontsquirrel.com/fonts/alegreya-sans) ([SIL Open Font License v1.10](http://www.fontsquirrel.com/license/alegreya-sans)), copyright 2011 and 2013 by Juan Pablo del Peral. See the licensing files in `licensing/` for details.
+The HTML version embeds the fonts [Alegreya](https://github.com/huertatipografica/Alegreya) and [Alegreya Sans](https://github.com/huertatipografica/Alegreya-Sans) ([SIL Open Font License v1.10](http://www.fontsquirrel.com/license/alegreya-sans)), copyright 2011 and 2013 by Juan Pablo del Peral, and [sindresorhus/modern-normalize](https://github.com/sindresorhus/modern-normalize).
+
+Conversions in this repository are generated using [jgm/pandoc](https://github.com/jgm/pandoc) (MacFarlane, J., Krewinkel, A., & Rosenthal, J. Pandoc \[Computer software\]. https://github.com/jgm/pandoc).
+
+See the licensing files in `licensing/` for further details.

@@ -39,13 +39,13 @@ EOF
 )  
 
   echo "---"
-  echo "Creating Aspell personal wordlist..."
+  echo "Creating Aspell personal word list..."
   echo "personal_ws-1.1 en ${LIST_LENGTH}" > "${ASPELL_PERSONAL_WORDLIST}" &&
   append_wordlist "${ASPELL_PERSONAL_WORDLIST}" &&
   success_text "+ Created ${ASPELL_PERSONAL_WORDLIST}." "${1}"
   echo "---"
 
-  echo "Creating OpenOffice.org/ODF dictionary..."
+  echo "Creating OpenOffice.org/ODF Hunspell-formatted word list..."
   echo "${ODF_HEADER}" > "${ODF_DICTIONARY}" &&
   append_wordlist "${ODF_DICTIONARY}" &&
   success_text "+ Created ${ODF_DICTIONARY}." "${1}"

@@ -59,9 +59,14 @@ For differences between the OGL v1.0a-licensed *SRD 5.0* and CC-BY-4.0-licensed 
 
 ## Release notes
 
+### 0.9.3 (2022-02-06)
+
+- Edit word list, and list exceptions and problematic terms in its README.
+- Replace some print-like chapter and section references, such as "(see "Equipment")", with direct links to the most relevant headings.
+
 ### 0.9.2 (2022-02-05)
 
-- Add spellcheck wordlist and dictionary generation script.
+- Add spellcheck word list and dictionary generation script.
 - Add DOCX/ODT reference documents for Pandoc.
 - Replace outdated normalize.css with [sindresorhus/modern-normalize](https://github.com/sindresorhus/modern-normalize).
 - Remove HTML5 printing shim for IE 9.

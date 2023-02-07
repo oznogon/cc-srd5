@@ -62,3 +62,21 @@ Some terms in this list have questionable provenance with regards to the *SRD* p
 - Xorn, an invention credited to Gygax
 
 Legal permission to use these terms is unsettled because the first-party publisher explicitly claimed the names of some creatures, places, languages, and people as Product Identity, and also enforces trademark claims on some of these terms independent of any copyright license grants. It also left some uses of protected terms in both the OGL-licensed and Creative Commons-licensed versions of the *SRD 5.1*.
+
+## Generic terms
+
+> While the CC-BY-4.0 license release of *SRD 5.1* changes the potential reality of any OGL-declared Product Identity in its contents, I'm personally removing any of it from this conversion in order to ensure that this resource remains, both in spirit and letter, in compliance with its permissive license despite the chaotic nature of the publisher's relicensing and their slipshod editing of the *SRD*.
+
+Continuing with the intent of changes that the *SRD*'s original publisher made in revisions to remove terms closely associated with the publisher's copyrighted settings, I've replaced terms listed by the first-party publisher as OGL Product Identity with the following generic terms, which I do not claim to own. Where possible, I release these replacement terms into the public domain to the fullest extent allowed in all jurisdictions, without any need for attribution:
+
+-   hooked hulk (*guards and wards*)
+-   eyestalker (*deck of illusions*)
+-   maze demon (*maze*)
+-   demon lords, archdevils, pit fiends, balors (Warlock class features; in place of references to specific named beings, and other groups of beings explicitly declared as Product Identity)
+-   serpentfolk (in place of references to a setting-specific ethnicity)
+-   fey plane, shadow plane (planes and monsters)
+-   primordial chaos (planes)
+-   *Orb of the Wyrm* (artifacts)
+-   Chains of the Deodand (Warlock eldritch invocations)
+
+References to protected deities are changed to real-world mythological entities as listed in the Pantheons section, and any named NPCs or locations in examples are given more generic names or removed.

@@ -25,27 +25,9 @@ This project is inspired by the stalwart [Hypertext d20 SRD](http://www.d20srd.o
 >
 > Any terms in this document not owned by me, or are not otherwise freely available or openly licensed content compatible with the CC-BY-4.0 license, are used unintentionally from the source document. I will remove them immediately when I find them and upon request, especially if you are the person who left them in by mistake in the first place or a representative of their publisher.
 
-## Generic terms
-
-> While the CC-BY-4.0 license release of *SRD 5.1* changes the potential reality of any OGL-declared Product Identity in its contents, I'm personally removing any of it from this conversion in order to ensure that this resource remains, both in spirit and letter, in compliance with its permissive license despite the chaotic nature of the publisher's relicensing and their slipshod editing of the *SRD*.
-
-Continuing with the intent of changes that the *SRD*'s original publisher made in revisions to remove terms closely associated with the publisher's copyrighted settings, I've replaced terms listed by the first-party publisher as OGL Product Identity with the following generic terms, which I do not claim to own. Where possible, I release these replacement terms into the public domain to the fullest extent allowed in all jurisdictions, without any need for attribution:
-
--   hooked hulk (*guards and wards*)
--   eyestalker (*deck of illusions*)
--   maze demon (*maze*)
--   fey plane, shadow plane (planes and monsters)
--   primordial chaos (planes)
--   *Orb of the Wyrm* (artifacts)
--   Chains of the Deodand (Warlock eldritch invocations)
--   serpentfolk (in place of references to a setting-specific ethnicity)
--   demon lords, archdevils, pit fiends, balors (in place of references to specific named beings)
-
-References to protected deities are changed to real-world mythological entities as listed in the Pantheons section, and any named NPCs or locations in examples are given more generic names or removed.
-
 ### Rules omitted from the source
 
-In addition to the terms above, rules for the following terms or concepts in this system were omitted from the *SRD* and therefore are intentionally not covered or explained. **If you're using this *SRD* to create content, be aware that the following concepts do not have official first-party open or freely licensed content to support them. This list is *not*, and might *never be*, comprehensive.**
+Rules for the following concepts in this system were omitted from the *SRD* and therefore are intentionally not covered or explained. **If you're using this *SRD* to create content, be aware that the following concepts do not have official first-party open or freely licensed content to support them. This list is *not*, and might *never be*, comprehensive.**
 
 -   **Domain and magic school descriptors in spells.** The *SRD* includes only the Life domain and Evocation school. Spells in the *SRD* might list other domains or schools that are described in the first-party publisher's copyright-reserved system, but those domains and schools are not detailed in the *SRD*.
 -   **Subclasses.** As above, every class includes only one subclass. Any references to any other subclass options lack corresponding rules.

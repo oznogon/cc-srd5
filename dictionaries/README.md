@@ -2,9 +2,9 @@
 
 > This work includes material taken from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of the Coast LLC and available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode.
 
-This directory contains a generic line-separated word list of valid terms from the *SRD 5.1* caught by spellcheckers, and a `dictgen.sh` script to output wordlists and dictionaries for spellchecking tools.
+This directory contains a generic line-separated word list of valid terms from the *SRD 5.1* caught by spellcheckers, and a `dictgen.sh` script to output word lists and dictionaries for spellchecking tools.
 
-The word list and ODF dictionary output are both valid Hunspell wordlists. Creating an affix file isn't in this project's scope because of the small size of the word list (<500 words).
+The word list and ODF dictionary output are both valid Hunspell word lists. Creating an affix file isn't in this project's scope because of the small size of the word list (<500 words).
 
 There are some exceptional uses of terms in the *SRD* that might conflict with other word lists, dictionaries, or popular or common usage:
 
@@ -15,8 +15,8 @@ There are some exceptional uses of terms in the *SRD* that might conflict with o
 - **Couatl.** The *SRD* prefers the alternate plural _-s_ suffixed "couatls" over using "couatl" for both singular and plural forms, and prefers "couatl" over the more standard Nahuatl transcriptions "coatl" or "cóatl".
 - **Djinni.** The *SRD* prefers this alternate transcription over "jinni" or "genie".
 - **Duergar.** The *SRD* prefers this term over "boggart", "bogle", or "brownman".
-- **Erinyes.** The *SRD* prefers "erinyes" as both the singular and plural forms, over the Greek singular "erinys".
 - **Efreeti.** The *SRD* prefers this alternate transcription over "ifrit", "afrit", "afarit", and "afreet".
+- **Erinyes.** The *SRD* prefers "erinyes" as both the singular and plural forms, over the Greek singular "erinys".
 - **Ettercap.** The *SRD* prefers this alternate spelling over "attercop".
 - **Ettin.** The *SRD* prefers this Middle English-derived term over the Old Norse term "jötunn", or the Northumbrian terms "yetun" or "yotun".
 - **Forcecage.** This spell name is intentionally one word in the *SRD*.
@@ -37,8 +37,8 @@ Some terms in this list have questionable provenance with regards to the *SRD* p
 - Ankheg, an invention of Erol Otis
 - Blink dog, an invention of Gary Gygax and Robert Kuntz; its description was edited in the first-party publisher's *SRD 5.1* to remove setting-specific details
 - Bulette, a Gygax invention
-- Drider, an invention of David C. Sutherland III
 - Names for types of demons without directly attributable mythological origins, and which are credited to Gary Gygax, such as glabrezu, vrock, nalfeshnee, hezrou, and marilith
+- Drider, an invention of David C. Sutherland III
 - Gelatinous cube, a Gygax derivation
 - Gnoll, a Gygax invention independent of similar prior art
 - Goblinoid, coined by Gygax
@@ -46,12 +46,12 @@ Some terms in this list have questionable provenance with regards to the *SRD* p
 - Grimlock, an invention to avoid copyright
 - Heartstone, an invention mentioned in night hags
 - Language names invented for the first-party publisher's settings, such as Auran, Aquan, Ignan, Undercommon
-- Planar names, possibly protected as places in OGL Product Identity
 - Morgana, an example character technically protected as a person in OGL Product Identity
 - Otyugh, a Gygax invention
 - Owlbear, a Gygax invention
-- Quasit, an invention credited to Gygax
+- Planar names, possibly protected as places in OGL Product Identity
 - Purple worm, a Gygax invention
+- Quasit, an invention credited to Gygax
 - Quipper, an invention of Albie Fiore apparently derived from the fish preparation "kipper" and referenced primarily in the first-party publisher's settings
 - Remorhaz, an invention credited to Otis and Kuntz
 - Roper, an invention credited to Gygax

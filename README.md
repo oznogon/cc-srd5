@@ -1,8 +1,8 @@
-# cc-srd5: The CC-BY-4.0 *SRD 5.1* in Markdown
+# cc-srd5: The CC BY 4.0-licensed *SRD 5.1* in Markdown
 
 > This work includes material taken from the System Reference Document 5.1 (“SRD 5.1”) by Wizards of the Coast LLC and available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License available at https://creativecommons.org/licenses/by/4.0/legalcode.
 
-The `cc-srd5.md` file in this repo is the original *System Reference Document 5.1* PDF converted to Markdown, then lightly edited to fix typographical errors, remove protected or trademarked terms left in the document by the publisher, and improve its navigation and accessibility as a digital document.
+The `cc-srd5.md` file in this repo is the relicensed *System Reference Document 5.1* PDF converted to Markdown, then lightly edited to fix typographical errors, remove protected or trademarked terms left in the document by the publisher, and improve its navigation and accessibility as a digital document.
 
 ## Project goals
 
@@ -10,7 +10,7 @@ The `cc-srd5.md` file in this repo is the original *System Reference Document 5.
 -   Make the *SRD* more useful for third-party publishers. The PDF provided by the first-party publisher contains unusable trademarked terms and references, and the PDF is rendered in such a way that unnecessarily complicates searching and copying content in many PDF readers.
 -   Fix punctuation and formatting errors and inconsistencies from the source PDF.
 -   Reorganize and divide the *SRD* so that its modular components can be easily repurposed for people building new systems on its foundation.
--   Export the content to other formats more easily, and with more features. For instance, exporting the *SRD* from Markdown to PDF gives us heading-level bookmarks, links, and a table of contents that the first-party version lacks. Exporting it to DOCX provides an easily editable document.
+-   Export the content to other formats more easily, and with more features. For instance, exporting the *SRD* from Markdown to PDF gives us heading-level bookmarks, links, functioning search, and a table of contents that the first-party version lacks. Exporting it to single-page or chunked HTML gives us rich linking features between concepts. Exporting it to DOCX, ODT, and ICML provides an easily editable document for publishers and designers.
 
 What this *won't* be:
 
@@ -23,7 +23,7 @@ This project is inspired by the stalwart [Hypertext d20 SRD](http://www.d20srd.o
 
 > **WARNING:** This is a work in progress, and I provide no guarantees or legal protections that it is safe or legal to use. Using this work as a source for a commercial product might expose you to liability from one of the demonstrably worst-behaving corporate owners in gaming. I am not a lawyer, and this is not legal advice; consult a lawyer before using this *SRD*.
 >
-> Any terms in this document not owned by me, or are not otherwise freely available or openly licensed content compatible with the CC-BY-4.0 license, are used unintentionally from the source document. I will remove them immediately when I find them and upon request, especially if you are the person who left them in by mistake in the first place or a representative of their publisher.
+> Any terms in this document not owned by me, or are not otherwise freely available or openly licensed content compatible with the CC BY 4.0 International license, are used unintentionally from the source document. I will remove them immediately when I find them and upon request, especially if you are the person who left them in by mistake in the first place or a representative of their publisher.
 
 ### Rules omitted from the source
 
@@ -38,13 +38,13 @@ Rules for the following concepts in this system were omitted from the *SRD* and 
 -   **Shield bashes.** Rules for players who use a shield as a weapon, and statistics for player shields that can be used as weapons, were not included in the first-party publisher's *SRD*. However, the gladiator NPC and lizardfolk creature use shields as weapons and include the minimum statistics necessary for a GM to make attacks with shields.
 -   **Character creation mechanics.** Because character creation mechanics were not included in the first-party publisher's *SRD*, mechanics for character traits, ideals, bonds, and flaws also were not included. However, the *SRD* still refers to them in the "Backgrounds", "Inspiration", "Madness", and "Sentient Magic Item" sections, and in the Cleric Acolyte background,
 
-For differences between the OGL v1.0a-licensed *SRD 5.0* and CC-BY-4.0-licensed *SRD 5.1*, see ["Changes from SRD 5.0 to 5.1"](./changes-50-to-51.md).
+For differences between the OGL v1.0a-licensed *SRD 5.0* and CC BY 4.0-licensed *SRD 5.1*, see ["Changes from SRD 5.0 to 5.1"](./changes-50-to-51.md).
 
 ## Release notes
 
 ### 0.9.3 (2022-02-06)
 
-- Edit word list, and list exceptions and problematic terms in its README.
+- Edit word list, and list exceptions and problematic terms in its [README](dictionaries/README.md).
 - Replace some print-like chapter and section references, such as "(see "Equipment")", with direct links to the most relevant headings.
 
 ### 0.9.2 (2022-02-05)
@@ -69,17 +69,17 @@ For differences between the OGL v1.0a-licensed *SRD 5.0* and CC-BY-4.0-licensed 
 
 ### 0.8.1 (2022-01-27)
 
-The *SRD*'s first-party publisher released the entirety of the *SRD 5.1* under the Creative Commons Attribution 4.0 International (CC-BY-4.0) license on January 26, 2023. I've reactivated this repository and relicensed its contents to match, and will resume maintenance now that there's much more value to having a searchable, plain-text edition of this text.
+The *SRD*'s first-party publisher released the entirety of the *SRD 5.1* under the Creative Commons Attribution 4.0 International (CC BY 4.0) license on January 26, 2023. I've reactivated this repository and relicensed its contents to match, and will resume maintenance now that there's much more value to having a searchable, plain-text edition of this text.
 
 #### Removals
 
 - To excise any potentially OGL v1.0a-licensed content, this repository's history has been rewritten to begin at this commit. I do not maintain or claim any rights to prior versions or other forks of this repository that might exist.
 - In the time since I first converted the *SRD 5.0* to Markdown in 2016, several other projects have done much more with the document. Since those projects have done more work over more time to greater effect, I've removed the JSON spell and creature/monster indices and filter tools from this repository and gladly instead link to several of those projects.
 
-  Please note that these resources might include content *not* in the *SRD 5.1* CC-BY-4.0 version, and might use terms that the first-party publisher has historically claimed as OGL Product Identity that might still be subject to legal claims in certain contexts regardless of their inclusion in the CC-BY *SRD 5.1*.
+  Please note that these resources might include content *not* in the *SRD 5.1* CC BY-licensed version, and might use terms that the first-party publisher has historically claimed as OGL Product Identity that might still be subject to legal claims in certain contexts regardless of their inclusion in the CC BY-licensed *SRD 5.1*.
 
   - [5e-bits/5e-database](https://github.com/5e-bits/5e-database) effectively replaces and improves upon my attempt to convert *SRD* content to structured JSON, and provides the data for creating equivalent tools that many other creators have taken advantage of.
-  - [OldManUmby/DND.SRD.Wiki](https://github.com/OldManUmby/DND.SRD.Wiki) goes beyond the goals of this project to incorporate errata not included in the CC-BY-4.0 *SRD 5.1* provided by the first-party publisher, and converted content to structured formats for use in other tools.
+  - [OldManUmby/DND.SRD.Wiki](https://github.com/OldManUmby/DND.SRD.Wiki) goes beyond the goals of this project to incorporate errata not included in the CC BY-licensed *SRD 5.1* provided by the first-party publisher, and converted content to structured formats for use in other tools.
 
 ## TODO
 
@@ -135,11 +135,36 @@ The *SRD*'s first-party publisher released the entirety of the *SRD 5.1* under t
 <details>
 <summary>Q: Some of the rules in the SRD have been changed in official errata, or I think they're bad and I have an improvement, or I'm offering to provide open content for references that are missing. How can I help?</summary>
 
-- A: This project will not incorporate any errata, even where it makes sense to, because the first-party publisher has not explicitly released any *SRD* or 5E-compatible errata under the CC-BY 4.0 license, except for any changes made in their *SRD 5.1* compared to their *SRD 5.0*. If that situation ever changes, file an issue and provide specific details and links to the first-party publisher's official release of such openly licensed errata.
+- A: This project will not incorporate any errata, even where it makes sense to, because the first-party publisher has not explicitly released any *SRD* or 5E-compatible errata under the CC BY 4.0 International license, or any compatible license, except for any changes made in its updates to the *SRD 5.1* compared to its *SRD 5.0*. If that situation ever changes, file an issue and provide specific details and links to the first-party publisher's official release of such openly licensed errata.
 
-  I know game mechanics, including the errata, are not copyrighted, and that the errata could be rephrased or reincorporated in this work without using the copyrighted text. But the entire reason the OGL exists, or that this Creative Commons relicensing occurred, is because of the potential liability of using even excerpts of copyrighted text not available under any open license, or available only under the OGL v1.0a or more restrictive copyright licenses.
+  I know game mechanics, including the mechanical changes described by the errata, are not copyrighted, and that the errata could be rephrased or reincorporated in this work without using the copyrighted text. But the OGL exists, and this Creative Commons relicensing occurred, because of the potential liability of using even excerpts of copyrighted rules text not available under any open license, or available only under the OGL v1.0a or more restrictive copyright licenses.
 
-  Additionally, I'm not a sufficient authority on the system's rules to judge whether your proposed fix to a rule is an improvement, even if your proposed improvement is original work and you offer to freely or openly license it. Improving the *rules content* of the *SRD* is explicitly *not* a goal of this project. If you want to do so, fork this project and take ownership of your improvements.
+  Additionally, I'm not a sufficient authority on the system's rules to judge whether your proposed fix to a rule is an improvement, even if your proposed improvement is original work and you offer to freely or openly license it. Improving the _rules content_ of the *SRD* is explicitly _not_ a goal of this project. If you want to do so, fork this project and take ownership of your improvements.
+
+</details>
+
+<details>
+<summary>Q: Wasn't the OGL dual-licensed and not relicensed?</summary>
+
+- A: Firstly, the terms are not exclusive. "Relicensing" means the *SRD* content's licensing terms changed. They have.
+
+  Secondly, upon the publication of the CC BY *SRD*, the *SRD*'s contents would have been remained licensed under both the OGL and CC BY even if the first-party publisher removed every copy of the OGL v1.0a *SRD* from their website, because the OGL *SRD* had already been published and an entity cannot "depublish" a published work. New OGL-licensed works derived from the OGL-licensed *SRD 5.1* would still be legally possible. Likewise, if the first-party publisher decides tomorrow to remove all CC BY copies of the *SRD 5.1* from its website and host only the OGL v1.0a version, or any other licensed version, or no version at all, the CC BY *SRD 5.1* would still exist.
+
+  (Indeed, the first-party publisher signaling that it wanted to deauthorize the OGL, something that potentially wasn't even legally viable, _is the context_ for the CC BY relicensing. If the OGL v1.0a had been deauthorized or otherwise revoked, this would be more relevant.)
+
+  Thirdly, simply providing an already published work under its prior license is not the act commonly referred to as "dual-licensing", which strongly and uniquely implies _ongoing maintenance of a work across both licenses_. For a relevant example of that, refer to [FATE Core's dual-licensed OGL and CC BY SRDs](https://www.faterpg.com/licensing/licensing-fate-cc-by/), which has a history of dual-licensed maintenance from 2016 to 2020.
+
+  If the first-party publisher updates the *SRD* and maintains both licensed versions in step, or even with divergent updates, it'd be easier to call the *SRD* "dual-licensed". If the first-party publisher updates and maintains only one licensed version of the *SRD*, it'd be much harder to call the *SRD* "dual-licensed", because it demonstrably would be not only divergent in content but also in timeliness.
+
+  (One wouldn't consider an open-source product that relicenses and stops updating the older versions with new content as "dual-licensed", even if you could technically use and derive products from either version under each version's license.)
+
+  And in any of these cases, it would still be true to note that the *SRD* had been relicensed, because the licensing terms had changed.
+
+  Considering that the *SRD*'s content hasn't been updated since 2016, even with the CC BY relicensing, there's no indication that the first-party publisher intends to maintain _any_ version of the *SRD* going forward. So calling the *SRD* "dual-licensed", even if true on a highly technical technicality, still implies that there are two copies of the *SRD* maintained by the first-party publisher under different licenses. In reality, there are none --- only a _relicensed_ copy of the OGL v1.0a-licensed content from 2016. (The first-party publisher's *SRD* FAQ [plainly points people to their storefront to buy additional rules](https://dnd.wizards.com/resources/systems-reference-document#:~:text=will%20more%20content%20be%20added%20to%20the%20srd%3F), and notes that any additions would occur only to "keep this document and its contents compatible with the latest D&D rules", in which case the publisher is already six years behind in incorporating errata and [fixing omissions](#rules-omitted-from-the-source).)
+
+  I'd consider using the term "dual-licensed" only if the first-party publisher changes this behavior, and I'd still feel no obligation.
+
+  Finally, and more entirely my opinion, I don't see a reason for the OGL v1.0a *SRD* to continue to matter for any new works since being relicensed CC BY. The OGL *SRD*'s value was solely in supporting existing OGL products that won't be updated, or which rely entirely on other OGL-licensed products. I see no benefits to using the OGL *SRD* in any way compared to the CC BY license, especially for works that intend to be used on any medium beyond a print document or PDF published primarily for a United States-based market. [The first-party publisher all but agrees;](https://dnd.wizards.com/resources/systems-reference-document#:~:text=How%20is%20this,5.1%20content.) I'd argue that the publisher makes the OGL *SRD* available for download solely because doing anything else would cause people to complain even more about it.
 
 </details>
 
@@ -157,11 +182,11 @@ The *SRD*'s first-party publisher released the entirety of the *SRD 5.1* under t
 
 - A: Regardless of whether I like the publisher or these rules, this system is popular enough to be responsible for growing a hobby I've loved for decades to an extent I hardly could have ever imagined. The people I've played it with are poorly served by the corporation that owns it.
 
-  Regardless of the still questionable, market-driven motives that led the first-party publisher relicensing this content to a truly open license, their action provides an opportunity to make these rules more accessible, expand this hobby to more people and more communities in ways not driven primarily or exclusively by monetization and profit, and inspire more people to create stories, mechanics, and experiences that have a long history of exceeding anything that the first-party publisher is capable of making.
+  Regardless of the still questionable, market-driven motives that led the first-party publisher relicensing this content to a truly open license, its action provides an opportunity to make these rules more accessible, expand this hobby to more people and more communities in ways not driven primarily or exclusively by monetization and profit, and inspire more people to create stories, mechanics, and experiences that have a long history of exceeding anything that the first-party publisher is capable of making.
 
   In particular, the *SRD* as it was originally released was insultingly poor: polluted with legal Product Identity traps, in a format pointlessly inaccessible to people with vision disabilities, poorly edited and laden with careless copy-and-paste mistakes, and missing fundamental components that made it unusable as a literal reference document for the system.
 
-  This mess of an *SRD* received all of one update months later, one that didn't even resolve all of the problems openly and publicly identified and reported at the time, and then nothing in the more than six years hence. The publisher made no attempt to host the *SRD* in literally any other format but the least accessible one available to them, instead handing that work - and all of its potential and ever-threatening liability - to unpaid fans and opportunistic ad-supported websites.
+  This mess of an *SRD* received all of one update months later, one that didn't even resolve all of the problems openly and publicly identified and reported at the time, and then nothing in the more than six years hence. The publisher made no attempt to host the *SRD* in literally any other format but the least accessible one available to them, instead handing that work --- and all of its potential and ever-threatening liability --- to unpaid fans and opportunistic ad-supported websites.
 
   Back in 2016, I had a player beyond excited to create OGL-licensed 5E-compatible content, but literally couldn't read the *SRD* because the first-party publisher was either too lazy or incompetent to export a tagged PDF fully compatible with contemporary screen readers. Back then, there were no reliable *SRD 5.0* websites. This project tried to resolve these fundamental issues because even then this system consumed all of the attention of legions of new players, even when more accessible, less expensive, better supported, and more open systems were already thriving in a smaller marketplace. The network effects alone of the system's name, brand, and retail distribution, even with all of its historical baggage, were and still remain overwhelming.
 

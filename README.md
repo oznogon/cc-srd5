@@ -36,7 +36,7 @@ Rules for the following concepts in this system were omitted from the *SRD* and 
 -   **Most class options (including feats) and sub-races.** Only one feat, Grappler, was included in the first-party publisher's *SRD*.
 -   **Cavalier die mechanics.** The cavalier's unique rules were not included in the first-party publisher's *SRD*.
 -   **Shield bashes.** Rules for players who use a shield as a weapon, and statistics for player shields that can be used as weapons, were not included in the first-party publisher's *SRD*. However, the gladiator NPC and lizardfolk creature use shields as weapons and include the minimum statistics necessary for a GM to make attacks with shields.
--   **Character creation mechanics.** Because character creation mechanics were not included in the first-party publisher's *SRD*, character traits, ideals, bonds, and flaws also were not included. However, the *SRD* still refers to them in the "Backgrounds", "Inspiration", "Madness", and "Sentient Magic Item" sections, and in the Cleric Acolyte background,
+-   **Character creation mechanics.** Because character creation mechanics were not included in the first-party publisher's *SRD*, mechanics for character traits, ideals, bonds, and flaws also were not included. However, the *SRD* still refers to them in the "Backgrounds", "Inspiration", "Madness", and "Sentient Magic Item" sections, and in the Cleric Acolyte background,
 
 For differences between the OGL v1.0a-licensed *SRD 5.0* and CC-BY-4.0-licensed *SRD 5.1*, see ["Changes from SRD 5.0 to 5.1"](./changes-50-to-51.md).
 

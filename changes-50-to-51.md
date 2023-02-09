@@ -24,7 +24,7 @@
   The College of Lore was described in both versions of the *SRD*, but the College of Valor was described in neither.
 
   Notably, this is not true for the Warlock class. *SRD 5.1* still lists the Archfey and Great Old One but doesn't describe them, and the Pact Boon class feature removes all mentions of the Archfey and Great Old One.
-- Under the Wizard's Arcane Traditions class feature, this line is edited: reference to schools of magic being specific schools that named specific, proper-noun schools which reference schools of magic not documented in either *SRD*, is edited:
+- Under the Wizard's Arcane Traditions class feature, a reference to specific proper-noun schools of magic as locations, which also reference schools of magic not documented in either *SRD*, is edited:
 
   *SRD 5.1* changes:
 

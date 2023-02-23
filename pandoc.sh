@@ -19,7 +19,9 @@ pandoc_html () {
         --css=conversions/cc-srd5.css \
         --metadata title="System Reference Document 5.1" \
         --template=conversions/cc-srd5.html.template \
-        --self-contained \
+        --wrap=preserve \
+        --embed-resources \
+        --standalone \
         cc-srd5.md \
         --output=conversions/cc-srd5."${1}"
 }
@@ -38,7 +40,8 @@ pandoc_docx () {
         --from=html \
         --to="${1}" \
         --reference-doc=conversions/custom-reference."${1}" \
-        --self-contained \
+        --embed-resources \
+        --standalone \
         conversions/cc-srd5.html \
         --output=conversions/cc-srd5."${1}"
 }

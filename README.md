@@ -42,6 +42,14 @@ For differences between the OGL v1.0a-licensed *SRD 5.0* and CC BY 4.0-licensed 
 
 ## Release notes
 
+### 0.9.4 (2022-02-23)
+
+- Update conversions.
+- Fix transposed spell properties for *acid arrow* and *alarm*. ([#3](https://github.com/oznogon/cc-srd5/issues/3))
+- Add list of changes from the source document to [licensing/LICENSING.md](licensing/LICENSING.md).
+- Add licensing question to [README FAQ](#faq).
+- Note missing rules related to character creation in README. ([#1](https://github.com/oznogon/cc-srd5/issues/1))
+
 ### 0.9.3 (2022-02-06)
 
 - Edit word list, and list exceptions and problematic terms in its [README](dictionaries/README.md).

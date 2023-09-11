@@ -42,6 +42,12 @@ For differences between the OGL v1.0a-licensed *SRD 5.0* and CC BY 4.0-licensed 
 
 ## Release notes
 
+### 0.9.5 (2023-09-11)
+
+- Update conversions.
+- Fix transposed class associations for *eldritch blast* (Warlock sted Sorcerer) and *find familiar* (Wizard sted Warlock). ([#4](https://github.com/oznogon/cc-srd5/issues/4))
+- Restore *poison spray* to the Warlock cantrip list. ([#4](https://github.com/oznogon/cc-srd5/issues/4))
+
 ### 0.9.4 (2022-02-23)
 
 - Update conversions.
